@@ -5,4 +5,5 @@ module.exports = {
       plugins: ['react-native-paper/babel'],
     },
   },
+  plugins: [[require.resolve('babel-plugin-module-resolver')], 'jest-hoist'],
 };
